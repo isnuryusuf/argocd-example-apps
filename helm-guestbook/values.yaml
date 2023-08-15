@@ -24,8 +24,8 @@ ingress:
       paths: 
         - path: /
           backend:
-            serviceName: serviceName
-            servicePort: 8080
+            serviceName: helm-guestbook
+            servicePort: 80
 
 
 resources: {}
